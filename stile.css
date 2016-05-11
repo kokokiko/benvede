@@ -1,0 +1,124 @@
+*{
+    margin:0px; padding:0px;
+}
+body{
+    padding:0px; margin:0px;
+    padding-left:100px; padding-right:100px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+.effects{
+    cursor:pointer;
+    color:black;
+    transition: color 0.5s;
+    transition: background 0.5s;
+    border-radius:2px;
+}
+.effects:hover{
+    color:white;
+    background-color:black;
+}
+
+
+#header{
+    width:100%;
+}
+
+#header img{
+    display:inline-block;
+}
+
+#header h3 {
+    border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+    display:inline-block;
+    float:right;
+    padding:5px;
+}
+
+#header ul{
+    list-style-type: none;
+    vertical-align:top;
+    display:inline-block;
+    height: 50px;
+}
+#header ul li{
+    display:inline-block;
+    height:100%;
+    padding-left: 10px;
+    padding-right:10px;
+    
+}
+#header ul li p{
+    line-height:50px;
+    height:100%;
+}
+
+
+
+.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#menu{
+    width:200px;
+}
+
+#menu h1{
+    text-align:center;
+    border:1px solid black;
+    border-radius:2px;
+    padding:10px;
+    cursor:default;
+    opacity:0.7;
+    transition:opacity 0.5s;
+}
+#menu h1:hover{
+    opacity:1;
+}
+
+#menu ul{
+    list-style-type:none;
+    margin-top:5px;
+}
+#menu ul li{
+    
+    padding:8px;
+}
+#s{
+    margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
