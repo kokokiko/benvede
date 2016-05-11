@@ -82,7 +82,7 @@ body{
 }
 #menu{
     margin-left:2px;
-    float:left;
+    display:inline-block;
     width:200px;
     
 }
@@ -180,7 +180,8 @@ body{
 }
 
 #altro{
-    float:left;
+    vertical-align: top;
+    display:inline-block;
 }
 .r1{
     margin-top:40px;}
