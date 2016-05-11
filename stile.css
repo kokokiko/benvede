@@ -168,7 +168,7 @@ body{
     #altro{
           margin-left:150px;
     }
-    .c2{margin-left:100px;}
+    .c2{margin-left:00px;}
 }
 
 @media (max-width: 600px) {
@@ -254,6 +254,7 @@ body{
      background-color:#E5E0D9;
     border-left: 1px solid #A9A19B;
      border-right: 1px solid #A9A19B;
+    
 }
 
 .block img{
