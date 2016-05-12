@@ -114,6 +114,38 @@ body{
     
     padding:8px;
 }
+
+
+#search{
+  float:right;vertical-align: top; margin-top:5px; margin-right:15px;
+    border-top-left-radius:10px; border-bottom-left-radius:10px;
+    background-color:white;
+    border:1px solid lightgray;
+    width:200px; height:20px;
+    overflow:hidden;
+}
+#searchtxt{
+    color:dimgray;
+    margin-left:5px;
+    border: 0px;
+    height:100%;
+    display:inline-block;
+}
+#searchbtn{
+    
+    display:inline-block;
+    width:22px;
+    height:100%;
+    text-align:center;
+    background-color: #E5E0D9;
+    
+    color:white;
+    
+}
+#searchbtn:hover{
+    cursor:pointer;
+    background-color:#A9A19B;
+}
 #s{
     margin-top:10px;
 }
@@ -224,7 +256,7 @@ body{
     cursor:pointer;
 }
 .img{
-    float:left;
+    float:left; 
     height:150px;
 }
 .img img{
@@ -251,21 +283,24 @@ body{
 }
 #footer{
     margin-top:40px;
-    width:100%;
+    width:94%;
     height:250px;
     background-color:black;
     color:white;
    margin-top:150px;
     clear:both;
+    display:inline-block;
+    vertical-align: top;
+    margin-left:0px; margin-right:0px;
 }
 .block{
-    display:inline-block;
-    height:210px;
+    height:230px;
     width:200px;
      background-color:#E5E0D9;
     border-left: 1px solid #A9A19B;
      border-right: 1px solid #A9A19B;
-    
+   white-space: normal;
+    display:inline-block;
 }
 
 .block img{
@@ -283,11 +318,40 @@ body{
 }
 .tutti{width:100%; height:100%;
    text-align:center;
-    overflow:auto;
+    overflow:hidden;
     background-color:black;
+    white-space:nowrap;
+    overflow-x:auto;
+}
+.nextprevstyle{
+     background-color:#E5E0D9;
+    border:1px solid #A9A19B;
+    color:black;
+    text-align:center;
+    height:265px;
+    width:2.5%;
+    
+    cursor:pointer;
+}
+.nextprevstyle:hover{
+    background-color:#A9A19B;
 }
 
-
+.nextprevstyle p{
+    line-height: 265px;
+    font-size:200%;
+}
+#next{
+    display:inline-block;
+    vertical-align:top;
+    
+   margin-top:150px;
+}
+#previous{
+     display:inline-block;
+    vertical-align:top;
+   margin-top:150px;
+}
 
 
 
