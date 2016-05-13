@@ -12,7 +12,7 @@ body{
   -moz-user-select: none;      /* Firefox */
   -ms-user-select: none;       /* Internet Explorer/Edge */
   user-select: none;           /* Non-prefixed version, currently
-                                  not supported by any browser */
+                                 not supported by any browser */
 }
 .effects a{
     text-decoration: none;
@@ -31,7 +31,7 @@ body{
     color:white;
     background-color:black;
 }
-.effects:hover >a{ color:white;}
+.effects:hover > a{ color:white;}
 
 
 #header{
@@ -63,7 +63,7 @@ body{
     padding-right:10px;
     
 }
-#header ul li p{
+#header ul li a{
     line-height:50px;
     height:100%;
 }
@@ -123,6 +123,8 @@ body{
     border:1px solid lightgray;
     width:180px; height:20px;
     overflow:hidden;
+    
+    white-space:nowrap;
 }
 #searchtxt{
     color:dimgray;
@@ -133,7 +135,7 @@ body{
 }
 #searchbtn{
     
-    display:inline-block;
+    float:left;
     width:22px;
     height:100%;
     text-align:center;
@@ -180,192 +182,6 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 600px) {
-    #altro{
-        
-    margin:0px;
-          margin-left:130px;
-    }
-    .c2{margin-left:100px;}
-}
-@media (max-width: 1100px) {
-    #altro{
-          margin-left:30px;
-        
-    }
-    .c2{margin-left:20px;}
-}
-@media (max-width: 600px) {
-    #altro{
-          margin-left:0px;
-        
-    margin:0px;
-        margin-top:20px;
-    }
-    .c2{margin-left:0px; margin-top:30px;}
-}
-
-#altro{
-    vertical-align: top;
-    display:inline-block;
-}
-.r1{
-    margin-top:40px;}
-.riga{
-    
-    display:block;
-    height:150px;
-    
-    border:1px solid #A9A19B;
-    background-color: #E5E0D9;
-    transition: border-color 0.5s;
-    border-radius:3px;
-}
-.riga:hover{
-     border:1px solid #615043;
-}
-.colonna h1{
-    border:1px solid black;
-    width:100%;
-    padding-top:10px;
-    padding-bottom:10px;
-    text-align:center;
-    border-radius:2px;
-}
-.colonna{
-    border-radius:5px;
-    display:inline-block;
-}
-.colonna:hover{
-    cursor:pointer;
-}
-.img{
-    float:left; 
-    height:150px;
-}
-.img img{
-    height:100%;
-}
-.textnexttoimg{
-    float:right;
-    text-align:center;
-}
-.textnexttoimg h3{
-    padding:10px;
-    width:150px;
-    border-bottom:1px solid #A9A19B;
-}
-.textnexttoimg p{
-    padding-top:10px;
-}
-#footer h3{
-    background-color:#E5E0D9;
-    border:1px solid #A9A19B;
-    color:black;
-    text-align:center;
-    padding:5px;
-}
-#footer{
-    margin-top:40px;
-    width:94%;
-    height:250px;
-    background-color:black;
-    color:white;
-   margin-top:150px;
-    clear:both;
-    display:inline-block;
-    vertical-align: top;
-    margin-left:0px; margin-right:0px;
-}
-.block{
-    height:230px;
-    width:200px;
-     background-color:#E5E0D9;
-    border-left: 1px solid #A9A19B;
-     border-right: 1px solid #A9A19B;
-   white-space: normal;
-    display:inline-block;
-}
-
-.block img{
-    height:90%;
-    width:100%;
-}
-.block p{height:10%;vertical-align:top;}
-.block p:hover{
-    font-weight: bolder;
-}
-.block a{
-    color:black;
-    text-decoration:none;
-    text-align:center;
-}
-.tutti{width:100%; height:100%;
-   text-align:center;
-    overflow:hidden;
-    background-color:black;
-    white-space:nowrap;
-    overflow-x:auto;
-}
-.nextprevstyle{
-     background-color:#E5E0D9;
-    border:1px solid #A9A19B;
-    color:black;
-    text-align:center;
-    height:265px;
-    width:2.5%;
-    
-    cursor:pointer;
-}
-.nextprevstyle:hover{
-    background-color:#A9A19B;
-}
-
-.nextprevstyle p{
-    line-height: 265px;
-    font-size:200%;
-}
-#next{
-    display:inline-block;
-    vertical-align:top;
-    
-   margin-top:150px;
-}
-#previous{
-     display:inline-block;
-    vertical-align:top;
-   margin-top:150px;
-}
-
-#racchiude{
-    
-    white-space:nowrap;
-    margin-top:40px;
-    width:100%;
-    height:250px;
-    color:white;
-   margin-top:150px;
-    clear:both;
-    display:inline-block;
-    vertical-align: top;
-    margin-left:0px; margin-right:0px;
-}
 
 
 
