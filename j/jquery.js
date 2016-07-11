@@ -38,3 +38,41 @@ $(document).on('click','#next', function() {
     })
 });
    
+
+
+
+
+
+
+
+$(document).on('click', '#one', function() {
+    if($(this).children('.subcat').css('display')!= 'block'){
+        $(this).children('.subcat').show(500);
+        
+        
+        
+        
+    }else{
+       $(this).children('.subcat').hide(500);
+    }
+
+  
+    
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
