@@ -3,9 +3,16 @@
 }
 body{
     padding:0px; margin:0px; height:100%;
-    font-family: arial; overflow-x:hidden;
+    font-family: arial; 
+ 
 }
-
+body,html{
+     margin:0 auto;
+    position:relative;
+     max-width: 1290px;
+    min-width:1280px;
+    display: inline-block;
+}
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
@@ -446,8 +453,6 @@ box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.15);
     vertical-align: top;
     margin-left:0px; margin-right:0px;
 }
-
-
 
 
 
