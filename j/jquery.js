@@ -45,15 +45,17 @@ $(document).on('click','#next', function() {
 
 
 
-$(document).on('click', '#one', function() {
-    if($(this).children('.subcat').css('display')!= 'block'){
-        $(this).children('.subcat').show(500);
+$(document).on('click', '.cat', function() {
+
+    if($(this).siblings('.subcat').css('display')!= 'block'){
+        $('.subcat').hide(500);
+        $(this).siblings('.subcat').show(500);
         
         
         
         
     }else{
-       $(this).children('.subcat').hide(500);
+       $(this).siblings('.subcat').hide(500);
     }
 
   
