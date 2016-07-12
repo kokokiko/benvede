@@ -7,11 +7,6 @@ body{
  
 }
 body,html{
-     margin:0 auto;
-    position:relative;
-     max-width: 1290px;
-    min-width:1280px;
-    display: inline-block;
 }
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
@@ -95,10 +90,17 @@ color:black;}
     margin-top:25px;
 }
 
-
+#altro{
+   vertical-align: top;
+    margin-top:-25px;
+    width:78%;
+    display:inline-block; white-space: normal;
+}
 #mostra{
     /*color:blue;*/
     width:465px;position:relative;
+    display:inline-block;
+      margin-left: 25px;
 }
 
 #mostra img{pointer-events: none;
@@ -192,7 +194,7 @@ color:black;}
     text-decoration: none;
     color:black;
 }
-.effects{
+.effects, .active{
     cursor:pointer;
     color:black;
     transition: color 0.5s;
@@ -208,17 +210,30 @@ color:black;}
 .effects:hover > a{ color:white;}
 
 
+.active{
+color:white;
+    background-color:black;
+}
+.active:hover{
+    
+    color:black;
+    background-color:white;
+}
+
 #header{
     width:100%;
 }
 
 #header img{
     display:inline-block;
-    width:200px;
+    width:300px;
     height:auto;
+    padding-top:5px;
+    padding-bottom:10px;
     cursor:pointer;
 }
 #header h3 {
+    margin-top:25px;
     border-top-left-radius: 0px;
      border-top-right-radius: 0px;
     display:inline-block;
@@ -227,8 +242,9 @@ color:black;}
 }
 
 #header ul{
+     padding-bottom:10px;
     list-style-type: none;
-    vertical-align:top;
+    vertical-align:bottom;
     display:inline-block;
     height: 50px;
 }
@@ -269,7 +285,7 @@ color:black;}
 
 
 #search{
-  float:right;vertical-align: top; margin-top:5px; margin-right:15px;
+  float:right;vertical-align: top; margin-top:35px; margin-right:15px;
     border-top-left-radius:10px; border-bottom-left-radius:10px;
     background-color:white;
     border:1px solid lightgray;
@@ -283,16 +299,17 @@ color:black;}
     margin-left:5px;
     border: 0px;
     height:100%;
+    width:155px;
     display:inline-block;
 }
 #searchbtn{
-    
-    float:left;
+    margin-top:-20px;
+    float:right;
     width:22px;
     height:100%;
     text-align:center;
     background-color: #E5E0D9;
-    
+   
     color:white;
     
 }
@@ -311,12 +328,7 @@ color:black;}
 }
 
 
-#altro{
-   vertical-align: top;
-    width:470px;
-      margin-left: 25px;
-    display:inline-block;
-}
+
 .r1{
     margin-top:40px;}
 .riga{
