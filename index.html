@@ -7,50 +7,85 @@
     
     
     <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
-       
+         <link rel="stylesheet" type="text/css" href="stile.css">
         <meta charset="UTF-8">
         <meta name="keywords" content="benvede, prodotti cosmetici, cosmetica, prodotti, alta, qualita, ben, vede, parucchiere, nail, benessere, estetica, attrezzature, arredamento, elettrici, lavatesta, poltrone, poltrone uomo, sedute attesa, sgabbelli, estetica, posti lavoto, uomo, donna, poggiapiedi, lavandini,crema, iolio, accessori, shampoo, balsamo, maschere, cure, gel, schiuma, lacca, trattamento, tinte, colori">
         <meta name="description" content="Benvede.com è il shop online per i migliori prodotti nel campo del benessere, parucchiere e attrezzature. ">
         <meta name="robots" content="index, follow">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <style>
-        ul li{border-radius:15px;color:white;margin-right:35px; margin-bottom:15px;text-decoration:none;list-style-type: none; padding:10px; 
-            cursor:pointer; transition:background-color 0.5s;}
-        a{
-            text-decoration:none;list-style-type: none;
-        }
-        ul li:hover{
-            
-            background-color:white; color:black;
-        }
-        ul{font-size:40px;
-           background-color:#A9A19B;
-          border-radius:100%; border:2px solid white;
-            position:absolute; margin: auto; top:0; left:0;right:0;bottom:0;
-            height:500px; width:500px;text-align:center;
-        }
+   <style>
+       body{
+            background-image: url("img/bg.png");
+       }
        
-        body {
-
-    padding: 0;background-color:white;
- 
-}
-    
-    </style>
+       #ball{
+           position:absolute;
+           top:0; left:0; right:0; bottom:0;
+           margin:auto;
+       background-color:white;
+           border:1px solid black;
+           background-position: bottom;
+           border-radius:20vw;
+           height:40vw;
+               width:40vw;
+           overflow:hidden;
+           text-align:center;
+       }
+       #sf{
+           width:30vw;
+           height:40vw;display:inline-block;
+        
+           overflow:hidden;
+           text-align:center;
+       }
+       #sf img{
+         
+           margin-top:15%;
+           padding-top:0.5vw;
+           width:90%; height:auto;
+           position:relative;
+           
+       }
+       #t{margin-top:5%;
+           width:80%;
+           height:70%;
+          
+           display:inline-block;
+           font-size:2.7vw;
+           font-family:arial;
+       }
+       #t p{margin:0px;border-radius:5px;
+           padding:5%;
+           cursor:pointer;
+           border:1px solid white;
+           transition: color 0.5s;
+           transition: border-color 0.8s;
+           color:dimgray;
+       }
+       #t p:hover{color:black;
+border:1px solid black;}
+       a{
+           text-decoration: none;
+           color:inherit
+       }
+   </style>
 </head>
     
 <body>
-
+    <div id="ball">
+    <div id="sf">
+     <img src="img/logo.png" alt="BENVEDE">
+        <hr  id="s" class="style-two">
+   <div id="t">
+        
+       <a href="home.html"><p>ITALIANO</p></a>
+       <p>中文</p>
+        <p>ENGLISH</p>
+    </div>
+    </div>
+    </div>
     
-<div id="ball">
-    <img src="img/logo.png" alt="BENVEDE">
-    <ul>
-   <a href="home.html"> <li style="margin-top:140px;">Italiano</li></a>
-        <li href="home.html">中文</li>
-    <li href="home.html">English</li>
-       
-    </ul>
-</div>
+    
+ 
 </body>
 </html>
-
