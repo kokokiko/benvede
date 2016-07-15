@@ -58,7 +58,7 @@ body,html{width:100%; height:100%;padding:0px; margin:0px;}
 #hold{
     width:100%;
     position:absolute;
-    top:54px;
+    top:10%;
     left:0px;
 }
 #menupg ul li img{
