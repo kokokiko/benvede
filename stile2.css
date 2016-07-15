@@ -1,0 +1,72 @@
+body, html{ margin:0px; padding:0px;}
+
+ul, a{
+    text-decoration: none;
+    list-style-type: none;
+    color:inherit;
+}
+
+#menu{
+   
+    width:300px;
+   overflow:hidden;
+    position:relative;    font-family:arial;
+}
+#menu #titolo{
+  background-color:#A9A19B;
+    font-size:35px;
+    text-align:center;
+    color:white;
+    padding-top: 20px;padding-bottom: 20px;
+  margin: 0px;cursor:default;
+
+}
+#menu #titolo, .cat {
+    width:100%; 
+    
+
+}
+#sotto{
+    margin-top:20px;
+}
+#menu .cat{text-align:left;
+    margin-top:10px;margin-bottom:10px;
+    padding:15px;
+    color:black;
+    font-size:22px;
+    position:relative;
+     width:100%; cursor:pointer;transition: background-color 0.5s;
+}
+#menu .cat:hover{
+    background-color:#A9A19B;
+}
+#menu .subcat{
+    background-color:#FAF8F7;
+    position:relative;
+    display:none;
+     margin:0px; padding:10px
+}
+#menu #one{
+    
+    background-color:#E5E0D9;
+}
+ul{margin:0px; padding:0px;}
+ul li{
+    padding:10px;
+    color: #4B4B4B;
+    width:100%;
+    text-align:left;
+    font-size:18px; margin:0px; cursor:pointer;
+}
+ul li:hover{
+color:black;}
+
+
+
+
+
+
+
+
+
+
