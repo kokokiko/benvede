@@ -22,7 +22,6 @@ body, html{
 
 
 
-
 ul, a{
     text-decoration: none;
     list-style-type: none;
@@ -31,8 +30,9 @@ ul, a{
 
 #menu{
    display:inline-block;
-    width:21vw;
-   overflow:hidden;
+    width:22%;
+   height:100%;
+   
     position:relative;    font-family:arial;
 }
 #menu #titolo{
@@ -49,16 +49,25 @@ ul, a{
     
 
 }
-#sotto{
-    margin-top:1.5vw;
+#menu{overflow:visible;}
+#menu #one{display:block;
+    vertical-align: bottom;
+    background-color:#E5E0D9;
 }
+
+#sotto{position:absolute; bottom:0;
+   width:100%;
+display:block;
+}
+
 #menu .cat{text-align:left;
-    margin-top:0.8vw;margin-bottom:0.8vw;
-    padding:1.1vw;
+    margin-top:0.8vw;
+    padding-top:0.9vw;padding-bottom:0.9vw;
+    padding-left:5%;
     color:black;
     font-size:1.5vw;
     position:relative;
-     width:100%; cursor:pointer;transition: background-color 0.5s;
+     width:95%; cursor:pointer;transition: background-color 0.5s;
 }
 #menu .cat:hover{
     background-color:#A9A19B;
@@ -69,10 +78,7 @@ ul, a{
     display:none;
      margin:0px; padding:1vw;
 }
-#menu #one{
-    
-    background-color:#E5E0D9;
-}
+
 #menu ul{margin:0px; padding:0px;}
 #menu ul li{
     padding:0.5vw;
@@ -89,21 +95,39 @@ color:black;}
 
 
 .margintop{
-    margin-top:2vw;
+    position:absolute;
+    bottom:0;
+}
+.marginleft{
+     right:0;
+}
+.top{
+    position:absolute; top:0;
+}
+.mleft{
+    left:5.5%;
+}
+#contenuto{ 
+    margin-top:2.5vw;height:38.5vw;width:100%;
+    text-align:center;
+    position:relative;white-space: nowrap;
+   
 }
 
 #altro{
+  
    vertical-align: top;
-    margin-top:-2vw;
     position:relative;
-    width:78vw; height:45vw;
+    height:100%; width:78%;
+ 
+    text-align:left;
     display:inline-block; white-space: normal;
 }
 #mostra{overflow:hidden;
-    width:42%;;position:relative;
+    width:44%;
     display:inline-block;
-      margin-left: 2vw;
-    height:40%;
+     
+    height:47%;text-align:left;
 }
 
 #mostra img{pointer-events: none;
@@ -155,9 +179,9 @@ color:black;}
 
 #footerofpage{
     clear:both;
-    width:97%;
-    position:relative;
-    bottom:0px;
+    width:100%;
+    position:absolute;
+    bottom:-95%;
     background-color:#A9A19B;
  font-size:1.2vw;
     margin-top:4vw;
@@ -252,7 +276,8 @@ color:white;
     font-size:1.5vw;
     padding:0.5vw;
 }
-
+#header ul a{line-height:3.5vw;
+    height:100%;}
 #header ul{
      padding-bottom:0.6vw;
     list-style-type: none;
@@ -271,10 +296,6 @@ color:white;
     padding-right:1vw;
     
 }
-#header ul li a{
-    line-height:3.5vw;
-    height:100%;
-}
 
 
 
@@ -284,17 +305,37 @@ color:white;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-#contenuto{ 
-    margin-top:30px;height:100vh;width:100vw;
-    position:relative;white-space: nowrap;
+
+
+
+
+#areacliente{
+    display:inline-block;
+    font-size:1.2vw;;
+    vertical-align:top; 
+    border:1px solid white;
+    margin-top:4.5vw;
+    transition:border-color 0.5s;
+    border-radius:4px;
+    padding:0.3vw;
 }
 
-
-
-
-
-
-
+#carello{
+    padding-left:0.1vw; padding-right:0.1vw;
+display:inline-block;margin-top:4.5vw;
+    background-image:url("img/cart.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:2vw; height:2vw;
+    border:1px solid white;
+    vertical-align:top;
+    cursor:pointer;
+    transition:border-color 0.5s;
+    border-radius:4px;
+}
+#carello:hover, #areacliente:hover{
+    border:1px solid black;
+}
 
 
 
@@ -407,8 +448,8 @@ box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.15);
     padding:0.5vw;
     font-size:1.5vw;
 }
-#footer{
-    width:94%;
+#footer{white-space: nowrap;
+    width:90%;
     height:17.8vw;
     
     color:white;
@@ -458,7 +499,7 @@ body::-webkit-scrollbar{
     color:black;
     text-align:center;
     height:99.3%;
-    width:2.3%;
+    width:4.7%;
     
     cursor:pointer;
 }
@@ -480,16 +521,16 @@ body::-webkit-scrollbar{
     vertical-align:top;
 }
 
-#racchiude{
+#racchiude{position:absolute; 
+    bottom:-58%;right:0;
     overflow:hidden;
-    margin-top:2vw;
     white-space:nowrap;
-    width:100%;
+    width:94.5%;
     height:20vw;
     color:white;
     display:inline-block;
     vertical-align: top;
-    margin-left:0px; margin-right:0px;
+    
 }
 
 
@@ -504,6 +545,33 @@ body::-webkit-scrollbar{
 
 
 
+#altro h3{
+    text-align:center;font-size:2vw;
+}
+
+
+#tits #s{
+    height:0.5vw;background-color:#B0171F;
+    margin:0; margin:auto; left:0; right:0;padding:0;position:absolute; Bottom:0; width:80%;
+}
+#tits{position:relative;
+ 
+    font-size:2.5vw;
+    text-align:center;
+
+    
+    padding-top: 1.5vw;padding-bottom: 1.5vw;
+  margin: 0px;cursor:default;  
+}
+#text{
+   position:absolute;
+    width:80%;
+    left:0; right:0;
+    margin:auto;
+    margin-top:2.5vw;
+    font-size:1.2vw;
+    
+}
 
 
 
@@ -513,14 +581,79 @@ body::-webkit-scrollbar{
 
 
 
-
-
-
-
-
-
-
-
+#ex{
+    position:fixed; background-color:white;
+    color:black;
+    font-size:2vw; width:4vw; height:4vw;text-align:center;
+    left:40vw; right:0; top:0; bottom:30vw; margin:auto; z-index:9999999999999;
+    border-radius:100%;
+    border:1px solid black;
+    color:black;
+    transition: background-color 0.5s; transition: color 0.3s;
+    cursor:pointer;
+}
+#ex p{
+   padding:1vw;
+}
+#ex:hover{
+background-color:black; color:white;}
+#blackout{
+    z-index:999;
+    position:fixed;
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.62);
+}
+#ball{z-index:99999;
+           position:fixed;
+           top:0; left:0; right:0; bottom:0;
+           margin:auto;display:inline-block;
+       background-color:white;
+           border:1px solid black;
+           background-position: bottom;
+           border-radius:20vw;
+           height:40vw;
+               width:40vw;
+           overflow:hidden;
+           text-align:center;
+       }
+       #sf{
+           width:30vw;
+           height:40vw;display:inline-block;
+        
+           overflow:hidden;
+           text-align:center;
+       }
+       #sf img{
+         
+           margin-top:15%;
+           padding-top:0.5vw;
+           width:90%; height:auto;
+           position:relative;
+           
+       }
+       #t{margin-top:5%;
+           width:80%;
+           height:70%;
+          
+           display:inline-block;
+           font-size:2.7vw;
+           font-family:arial;
+       }
+       #t p{margin:0px;border-radius:5px;
+           padding:5%;
+           cursor:pointer;
+           border:1px solid white;
+           transition: color 0.5s;
+           transition: border-color 0.8s;
+           color:dimgray;
+       }
+       #t p:hover{color:black;
+border:1px solid black;}
+       a{
+           text-decoration: none;
+           color:inherit
+       }
 
 
 
