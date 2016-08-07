@@ -64,7 +64,7 @@ display:block;
     margin-top:0.8vw;
     padding-top:0.9vw;padding-bottom:0.9vw;
     padding-left:5%;
-    color:white;
+    color:black;
     font-size:1.5vw;
     position:relative;
      width:95%; cursor:pointer;transition: background-color 0.5s;
@@ -156,9 +156,9 @@ color:#A9A19B;}
     height:100%;
     padding-top:2vw;
     padding-left:1.7vw;
-    width:93%; color:white;
+    width:93%; color:black;
     margin-top:5%;
-      background-color: #4c4c4c;
+      background-color: #E5E0D9;
     white-space:normal;
 }
 #mostra .button{text-align:center;
@@ -169,12 +169,12 @@ color:#A9A19B;}
     margin-bottom:0.5vw;
     padding:1.5vw;
     cursor:pointer;
-    background-color: #999999;
+    background-color: #E5E0D9;
     color:#A9A19B;
     transition:background-color 0.5s;
 }
 #mostra .button:hover{
-    background-color:#191919;
+    background-color:#A9A19B;
     color:white;
 }
 
