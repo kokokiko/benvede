@@ -170,12 +170,12 @@ color:#A9A19B;}
     padding:1.5vw;
     cursor:pointer;
     background-color: #A9A19B;
-    color:#A9A19B;
+    color:white;
     transition:background-color 0.5s;
 }
 #mostra .button:hover{
     background-color:#E5E0D9;
-    color:white;
+    color:#A9A19B;
 }
 
 
