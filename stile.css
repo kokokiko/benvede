@@ -4,8 +4,9 @@
 body{
     padding:0px; margin:0px; height:100%;
     font-family: arial; 
-    
+    width:90%;
 overflow-x:hidden;
+    margin: auto;
 }
 body, html{
     height:100%;
