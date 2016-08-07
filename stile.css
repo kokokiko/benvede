@@ -174,7 +174,7 @@ color:#A9A19B;}
     transition:background-color 0.5s;
 }
 #mostra .button:hover{
-    background-color:#E5E0D9;
+    background-color:#C4BCB5;
     color:#A9A19B;
 }
 
@@ -446,7 +446,7 @@ box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.15);
 #footer h3{
     background-color:#E5E0D9;
     border:0.1vw solid #A9A19B;
-    color:white;
+    color:black;
     text-align:center;
     padding:0.5vw;
     font-size:1.5vw;
