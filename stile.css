@@ -233,7 +233,7 @@ color:#A9A19B;}
 }
 .effects, .active{
     cursor:pointer;
-    color:#A9A19B;
+    color:black;
     transition: color 0.5s;
     transition: background 0.5s;
     border-radius:2px;
@@ -242,7 +242,7 @@ color:#A9A19B;}
 }
 .effects:hover{
     color:white;
-    background-color:#A9A19B;
+    background-color:BLACK;
 }
 .effects:hover > a{ color:white;}
 
@@ -294,7 +294,7 @@ color:white;
     font-size:1.3vw;
     display:inline-block;
     height:100%;
-  color:black;
+  
     padding-left: 1vw;
     padding-right:1vw;
     
